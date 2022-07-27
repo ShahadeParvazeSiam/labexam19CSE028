@@ -1,0 +1,269 @@
+
+
+/* Navbar prokject start */
+
+ @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.brand-section{
+    display: flex;
+    align-items: center;
+}
+.brand-logo{
+    margin-right: 1rem;
+
+}
+.brand-logo span{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.brand-title a{
+    color: #fff;
+    text-decoration: none;
+}
+.main-section{
+    display: flex;
+   
+    margin-left: 2rem;
+}
+.main-section a,
+.right-menu a{
+    display: inline-block;
+    margin-right: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.main-section a:hover{
+    text-decoration: underline;
+    color: #fff000;
+
+}
+
+.right-menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
+}
+.right-menu button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.right-menu button > span{
+    font-size: 1.5rem;
+
+
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .dropdown-item{
+    display:block;
+}
+
+.dropdown >.dropdown-item{
+    position: absolute;
+    right: 0%;
+    background-color: #fff
+    ;
+    box-shadow:0 4px 8px 0 rgb(45, 45, 65 ,0.2);
+    width: 200px;
+    border-radius: 0.15rem;
+    display: none;
+}
+.dropdown-item-ul{
+    list-style: none;
+}
+.dropdown-item-li{
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+.dropdown-item-li a{
+    color: #333;
+    font-size: 0.9rem;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+.dropdown-item-li:hover{
+    background-color: #fff000;
+}
+.divider{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+
+.mega-menu{
+    position: relative;
+}
+
+.mega-menu:hover .mega-menu-container{
+    display: flex;
+}
+.mega-menu-container{
+position: absolute;
+top: 100%;
+width: 700px;
+height: 300px;
+box-shadow:0 4px 8px 0 rgb(45, 45, 65 ,0.2);
+display: none;
+background-color: #fff000;
+}
+
+.catagory{
+    padding-top:1.5rem ;
+}
+.catagory-title{
+    color:#333
+
+}
+.catagory-item{
+    padding: 1rem;
+}
+.catagory-item li {
+    list-style-type:none;
+}
+
+.con h1{
+    font-family: "Roboto", sans-serif;
+    color: rgb(99, 122, 13);
+    margin-left: 10px;
+}
+.con{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.img-gallery{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: stretch;
+}
+.img-gallery img{
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0 2px 4px 5px rgb(54, 64, 98 1);
+    border: 2px solid #fff000;
+    object-fit: cover;
+    /* object-position: center; */
+
+}
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family:'Roboto',sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(7, 129, 82);
+}
+.container{
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.brand-section{
+    display: flex;
+    align-items: center;
+   
+}
+.brand-logo{
+    margin-right: 1rem;
+}
+.brand-logo span{
+    color: #fff;
+    font-size: 2.5rem;
+
+}
+.brand-name a{
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.main-menu
+{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+.main-menu a,
+.right-menu a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.main-menu a:hover{
+    text-decoration: underline;
+    color: #fff000;
+}
+.right-menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
+}
+    
+.right-menu button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.right-menu button > span{
+    font-size: 1.5rem;
+}  
+
+
+
+/* Navbae project end */
